@@ -1,5 +1,9 @@
 export default function loadHomePage() {
     const content = document.querySelector('#content');
+    content.classList.add('transition');
+    setTimeout(() => {
+        content.classList.remove('transition');        
+    }, 500);
     content.innerHTML = 
             `
             <div class="HomePage">

@@ -12,11 +12,19 @@ homeBtn.onclick = () => {
 
 const menuBtn = document.querySelector('.menuBtn');
 menuBtn.onclick = () => {
+    content.classList.add('transition');
+    setTimeout(() => {
+        content.classList.remove('transition');        
+    }, 500);
     menu();
 }
 
 const aboutBtn = document.querySelector('.aboutBtn');
 aboutBtn.onclick = () => {
+    content.classList.add('transition');
+    setTimeout(() => {
+        content.classList.remove('transition');        
+    }, 500);
     about();
 }
 
