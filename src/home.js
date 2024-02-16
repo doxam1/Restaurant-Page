@@ -5,7 +5,7 @@ export default function loadHomePage() {
             <div class="HomePage">
             <h1> Welcome to may may kitchen </h1>
             <section>
-            <img src="../src/soupimg.jpg" width="20%">
+            <img src="img/soupimg.jpg" width="20%" alt="tasty soup image" title="the best soup in town!">
             <div class="text">
                 <p>
                     we're known for making the world famous chicken soup!
